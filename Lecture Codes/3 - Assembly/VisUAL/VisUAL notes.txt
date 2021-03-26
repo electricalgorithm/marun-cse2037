@@ -1,0 +1,10 @@
+https://salmanarif.bitbucket.io/visual/index.html
+
+Differences from STM32 assmebly codes
+
+1. Instead of using "Mem_Addr=0x20000040", use "Mem_Addr equ 0x20000040"
+2. Labels should not have ":" 
+3. Instead of using "End B End", use "end" to end the program
+4. Comments will be represented by ";" instead of "//"
+
+When an error occurs in the code, the simulator informs about possible ways to correct it.

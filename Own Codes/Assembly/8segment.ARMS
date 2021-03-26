@@ -1,0 +1,1207 @@
+{
+  "version": 1.0,
+  "copyright": "(C) 2019 Valentin D\u0027Emmanuele, Gilles Mertens, Dylan Fraisse, Hugo Chemarin, Nicolas Gervasi",
+  "program": "LDR R0, \u003d0x1f1000\nMOV R2, #0x7D\n@ 0x6E: \"9\"\n@ 0x7E: \"8\"\n@ 0x70: \"7\"\n@ 0x7D: \"6\"\n@ 0x6D: \"5\"\n@ 0x66: \"4\"\n@ 0x4F: \"3\"\n@ 0x5B: \"2\"\n@ 0x06: \"1\"\nMOV R1, #0\n\nOPENLED:\n\tSTR R2, [R0, R1]\n\nADD R1, R1, #1\nCMP R1, #15\nBNE OPENLED",
+  "components": [
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 0,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 1,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 2,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 3,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 4,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 5,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 6,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035712
+        },
+        "shift": 7,
+        "portNb": 0
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 0,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 1,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 2,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 3,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 4,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 5,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 6,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035713
+        },
+        "shift": 7,
+        "portNb": 1
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 0,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 1,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 2,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 3,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 4,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 5,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 6,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035714
+        },
+        "shift": 7,
+        "portNb": 2
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 0,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 1,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 2,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 3,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 4,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 5,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 6,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035715
+        },
+        "shift": 7,
+        "portNb": 3
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 0,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 1,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 2,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 3,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 4,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 5,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 6,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035716
+        },
+        "shift": 7,
+        "portNb": 4
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 0,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 1,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 2,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 3,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 4,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 5,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 6,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035717
+        },
+        "shift": 7,
+        "portNb": 5
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 0,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 1,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 2,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 3,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 4,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 5,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 6,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035718
+        },
+        "shift": 7,
+        "portNb": 6
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 0,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 1,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 2,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 3,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 4,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 5,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 6,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035719
+        },
+        "shift": 7,
+        "portNb": 7
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 0,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 1,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 2,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 3,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 4,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 5,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 6,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035720
+        },
+        "shift": 7,
+        "portNb": 8
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 0,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 1,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 2,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 3,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 4,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 5,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 6,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035721
+        },
+        "shift": 7,
+        "portNb": 9
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 0,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 1,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 2,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 3,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 4,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 5,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 6,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035722
+        },
+        "shift": 7,
+        "portNb": 10
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 0,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 1,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 2,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 3,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 4,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 5,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 6,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035723
+        },
+        "shift": 7,
+        "portNb": 11
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 0,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 1,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 2,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 3,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 4,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 5,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 6,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035724
+        },
+        "shift": 7,
+        "portNb": 12
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 0,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 1,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 2,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 3,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 4,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 5,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 6,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035725
+        },
+        "shift": 7,
+        "portNb": 13
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 0,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 1,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 2,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 3,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 4,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 5,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 6,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    },
+    {
+      "data": {
+        "register": {
+          "myAddress": 2035726
+        },
+        "shift": 7,
+        "portNb": 14
+      },
+      "type": "projetarm_v2.simulator.core.io.IOSegment"
+    }
+  ]
+}
