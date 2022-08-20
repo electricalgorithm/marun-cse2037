@@ -8,6 +8,7 @@
 > Some of the text are copied from the original mbed OS API documentation. I have declare no rights in any of texts.
 
 ### Digital I/O
+
 |                                   | Mode    | Description                                                |
 | --------------------------------- | ------- | ---------------------------------------------------------- |
 | **DigitalIn varName(pinNumber)**  | Digital | For declaring a pin as a digital input source.             |
@@ -16,6 +17,7 @@
 | **varName.write(value)**          | Digital | To write value to the varName's pin.                       |
 
 ### Analog I/O
+
 |                     | Mode    | Description                                                  |
 | --------------------------------- | ------- | ------------------------------------------------------------ |
 | **AnalogIn varName(pinNumber)**   | Analog  | For declaring a pin as a analog input source.                |
@@ -25,7 +27,7 @@
 | **varName.read_voltage()** | Analog | To read the voltage as in units of volts. Doesn't work in Simulator.|
 | **varName.write(value)**          | Analog  | Set the output voltage with specifing as a percentage value (float). |
 | **varName.write_u16(value)**		       | Anlog | Set the output voltage represented as a unsigned short in range [0x0, 0xFFFF] |
-<div style="page-break-after: always;"></div>
+
 ### Interrupts
 |                     | Mode    | Description                                                  |
 | --------------------------------- | ------- | ------------------------------------------------------------ |
@@ -34,7 +36,7 @@
 1. No blocking code in ISR: avoid any call to wait, infinite while loop or blocking calls in general.
 2. No printf, malloc or new in ISR: avoid any call to bulky library  functions. In particular, certain library functions (such as printf,  malloc and new) are non re-entrant, and their behavior could be  corrupted when called from an ISR.
 3. For `printfs` from interrupt context, use [Event](https://os.mbed.com/docs/mbed-os/v6.6/apis/event.html) instead.
-<div style="page-break-after: always;"></div>
+
 ### Timers
 
 |                     | Mode    | Description                                                  |
@@ -54,7 +56,8 @@
 |**varName.attach()** | Timeout | Attach a function to be called by the Ticker, specifying the interval in seconds.|
 |**varName.attach_us()** | Timeout | Attach a function to be called by the Ticker, specifying the interval in microseconds.|
 |**varName.detach()** | Timeout | To detach the ISR. |
-<div style="page-break-after: always;"></div>
+
+
 > You can also use LowPowerTimer, LowPowerTicker,  and LowPowerTimout for better power management. You must consider that LowPower\*s has worse precision than the normal ones but the normals can not enter the deep sleep mode. Their methods are the same.
 
 1. Timers are based on 64-bit signed microsecond counters, giving a range of over 250,000 years.
@@ -88,4 +91,3 @@
 
 1. Set the cycle time first, and then set the duty cycle using either a relative time period via the write() function or an absolute time period using the pulsewidth() function.
 2. The default period is 0.020s, and the default pulse width is 0.
-<div style="page-break-after: always;"></div>
